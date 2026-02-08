@@ -1,0 +1,26 @@
+.features {
+  display: flex;
+  align-items: center;
+  padding: 3rem 0 4rem;
+  width: 100%;
+  background: var(--ifm-background-surface-color);
+}
+
+.featureSvg {
+  height: 160px;
+  width: 160px;
+  margin-bottom: 0.5rem;
+  opacity: 0.9;
+}
+
+.features :global(.col) {
+  padding: 1rem;
+}
+
+.features :global(.col > div) {
+  background: var(--ifm-card-background-color, #fff);
+  border-radius: 16px;
+  padding: 1.5rem 1.25rem;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+  border: 1px solid rgba(148, 163, 184, 0.2);
+}
